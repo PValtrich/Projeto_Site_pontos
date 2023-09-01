@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: none;
+}
+html, body{
+        font-size: 62,5%;
+        font-family: 'Courier New', Courier, monospace;
+        text-rendering: optimizeLegibility;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../IMAGE/Background_Aluno.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80.025rem;
+    height: 36.506rem;
+    border: none;
+    flex-direction: column;
+    margin: 3rem;
+    border-radius: 2rem;
+    background-color: #ADEADA;
+    overflow-y: scroll;
+}
+
+p{
+    width: 78rem;
+    height: 3rem;
+    background-color: #92B695;
+    color: black;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    
+}
+#aluno{
+    width: 80rem;
+    height: 7rem;
+    background-color: #92B695;
+    color: black;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    background-color: #92B695;
+    color: black;
+    border: none;
+
+
+}
